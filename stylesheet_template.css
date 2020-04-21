@@ -7,15 +7,21 @@ body {
 
 .container {
   background-color: white;
-
 }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 63f464542d6d6cb5913ec0e3790ca431b3eee411
 table{
   border-spacing: 15px 15px;
 }
 
 h1{
+<<<<<<< HEAD
   border-radius: 15px;
+=======
+>>>>>>> 63f464542d6d6cb5913ec0e3790ca431b3eee411
   background-color: red;
   text-align: center;
   font-weight: 900;
@@ -91,8 +97,9 @@ p {
   margin: 0 auto 0 auto;
   text-align: center;
   width:150px;
-  height:150px;
+  height:100px;
 }
+
 .navbar {
   border-radius: 15px;
   overflow: hidden;
@@ -120,4 +127,12 @@ p {
 .navbar a.active {
   background-color: red;
   color: white;
+}
+
+.card_available_items1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
+
 }
