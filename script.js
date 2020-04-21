@@ -8,7 +8,17 @@ var loadFile = function(event) {
     URL.revokeObjectURL(output.src)
   }
 };
+
 $(document).ready(function(){
   $("#choosefile").click(function(){
     $("#choosefile").hide();
   })});
+
+  function open_Expense(){
+    var expense1 = document.getElementById('choosefile');
+    expense1.addEventListener('click', showaddExpense, false);
+  }
+  function showaddExpense() {
+     document.getElementById('output').style.display = "block";
+  }
+window.addEventListener('load', open_Expense, false)
