@@ -9,13 +9,14 @@ body {
   background-color: white;
 
 }
-h1 {
-  background-color: red;
+
 table{
   border-spacing: 15px 15px;
 }
 
 h1{
+  border-radius: 15px;
+  background-color: red;
   text-align: center;
   font-weight: 900;
   font-size: 3rem;
@@ -37,7 +38,6 @@ p {
 }
 
 .checkboxes {
-
   text-align: justify;
   display: grid;
   font-size: 18px;
@@ -59,6 +59,7 @@ p {
 }
 
 .recipe-button {
+  border-radius: 30px;
   background-color: red;
   border: none;
   color: white;
@@ -70,6 +71,7 @@ p {
 }
 
 .upload-button {
+  border-radius: 30px;
   background-color: red;
   border: none;
   color: white;
@@ -83,6 +85,7 @@ p {
 .image{
   text-align: center;
 }
+
 #output{
   display:none;
   margin: 0 auto 0 auto;
@@ -91,6 +94,7 @@ p {
   height:150px;
 }
 .navbar {
+  border-radius: 15px;
   overflow: hidden;
   background-color: #333;
   position: inherit;
