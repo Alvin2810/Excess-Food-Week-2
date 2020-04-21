@@ -7,15 +7,14 @@ body {
 
 .container {
   background-color: white;
-
 }
-h1 {
-  background-color: red;
+  
 table{
   border-spacing: 15px 15px;
 }
 
 h1{
+  background-color: red;
   text-align: center;
   font-weight: 900;
   font-size: 3rem;
@@ -37,7 +36,6 @@ p {
 }
 
 .checkboxes {
-
   text-align: justify;
   display: grid;
   font-size: 18px;
@@ -83,13 +81,15 @@ p {
 .image{
   text-align: center;
 }
+
 #output{
   display:none;
   margin: 0 auto 0 auto;
   text-align: center;
   width:150px;
-  height:100px;
+  height:150px;
 }
+
 .navbar {
   overflow: hidden;
   background-color: #333;
