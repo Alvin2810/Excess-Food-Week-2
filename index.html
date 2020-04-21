@@ -9,8 +9,16 @@
     </title>
   </head>
   <body>
-    <h1>Excess Food</h1>
-    <h2>Ingredient List</h2>
+    <div class="container">
+
+    <div class="h1">
+      <h1>Excess Food</h1>
+    </div>
+
+    <div class="h2">
+      <h2>Ingredient List</h2>
+    </div> 
+    
     <p>Select the ingredients you have available from the list provided below:</p>
 
     <form  action="quickrecipe.html">
@@ -34,13 +42,23 @@
         <div><input type="checkbox" id="checkbox17" /><label for="checkbox17"> Honey</label></div>
         <div><input type="checkbox" id="checkbox18" /><label for="checkbox18"> Flour</label></div>
       </div>
-      <div class="submit" style="text-align:center"><input type="submit" value="Show recipe"/></div>
+
+      <div class="show">
+        <input onclick="window.location.href='quickrecipe.html'" type="button" class="recipe-button" value="Show Recipes">
+       </div> 
+
     </form>
-    <div class="submit" style="text-align:center"><input onclick="window.location.href='Addrecipe.html'" type="button" value="Upload your Recipe" /></div>
+
+    <div class="upload">
+      <input onclick="window.location.href='Addrecipe.html'" type="button" class="upload-button" value="Upload your recipe">
+    </div>
+    
     <div class="navbar">
       <a href="donate.html" >Donate</a>
       <a href="index.html" class="active">Home</a>
       <a href="pickup.html">Pickup</a>
     </div>
+
   </body>
+</div>
 </html>
