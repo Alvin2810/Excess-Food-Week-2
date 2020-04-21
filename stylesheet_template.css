@@ -1,6 +1,9 @@
 body{
   background-color: #FDF5E6;
 }
+table{
+  border-spacing: 15px 15px;
+}
 h1{
   text-align: center;
 }
@@ -24,6 +27,9 @@ p{
 }
 .submit{
 padding-top:30px;
+}
+.image{
+  text-align: center;
 }
 .navbar {
   overflow: hidden;
