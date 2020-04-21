@@ -8,20 +8,13 @@ body {
 .container {
   background-color: white;
 }
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 63f464542d6d6cb5913ec0e3790ca431b3eee411
 table{
   border-spacing: 15px 15px;
 }
 
 h1{
-<<<<<<< HEAD
   border-radius: 15px;
-=======
->>>>>>> 63f464542d6d6cb5913ec0e3790ca431b3eee411
   background-color: red;
   text-align: center;
   font-weight: 900;
