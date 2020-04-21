@@ -7,10 +7,25 @@
     <title>
       Donate
     </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <h1>Excess Food</h1>
     <h2>Donate</h2>
+    <table align="center">
+      <form action="index.html">
+        <tr><td colspan="2"class="image"> <input type='file' id="choosefile" accept="image/*" onchange="loadFile(event)"/>
+        <img id="output"/></td></tr>
+        <tr><td><label for="name">Name of the product:</label></td><td> <input type="text" id="name" name="name"><td></tr>
+        <tr><td><label for="date">Expiration date:</label></td><td> <input type="date" id="date" name="date"><td></tr>
+        <tr><td><label for="description">Description:</label></td><td><textarea id="description"></textarea><td></tr>
+        <tr><td><label for="dropoff">Drop Off time: </label></td><td> <input type="time" id="dropoff" name="dropoff"><td></tr>
+        <tr><td><label for="back"></label><input type="button" id="back" value="Back" onclick="window.location.href='index.html'"></td><td><input type="submit" onclick="myAlert()" value="Donate"></td></tr>
+      </form>
+    </table>
+
+
     <div class="navbar">
       <a href="donate.html" class="active">Donate</a>
       <a href="index.html">Home</a>
