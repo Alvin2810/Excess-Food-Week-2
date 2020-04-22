@@ -7,10 +7,25 @@
     <title>
       Add Recipe
     </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <h1>Excess Food</h1>
     <h2>Add Recipe</h2>
+    <table align="center">
+      <form action="index.html">
+        <tr><td colspan="2"><label for="dishname">Name of dish:</label> <input type="text" id="dishname" required><td></tr>
+        <tr><td class="image"> <input type='file' id="choosefile" accept="image/*" onchange="loadFile(event)"/><img id="output"/></td></tr>
+          <tr><td><label for="ingredients">Ingredients: </label> <textarea id="ingredients"></textarea></td></tr>
+            <tr><td colspan="2"><label for="method">Method: </label><textarea id="ingredients" rows="20" cols="20"></textarea></td></tr>
+
+        <tr><td colspan="2" align="center"><input id="upload" type="submit"  value=" Upload"></td></tr>
+      </form>
+    </table>
+
+
+
     <div class="navbar">
       <a href="donate.html" >Donate</a>
       <a href="index.html" >Home</a>
