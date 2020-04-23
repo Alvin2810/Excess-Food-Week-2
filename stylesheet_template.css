@@ -145,6 +145,6 @@ p {
 
 .moreinfo_buttons{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-column-gap: 20px;
 }
