@@ -12,10 +12,7 @@ $('#upload').click(function(){
    }
 })});
 
-$(document).ready(function(){
-$('#submitrequest').click(function(){
-      alert("Your Pickup Request has been submitted");
-   })});
+
 
 var loadFile = function(event) {
   var output = document.getElementById('output');
@@ -30,11 +27,11 @@ $(document).ready(function(){
     $("#choosefile").hide();
   })});
 
-  function open_Expense(){
-    var expense1 = document.getElementById('choosefile');
-    expense1.addEventListener('click', showaddExpense, false);
+  function hideChoosefile(){
+    var choosefile = document.getElementById('choosefile');
+    choosefile.addEventListener('click', showPicture, false);
   }
-  function showaddExpense() {
+  function showPicture() {
      document.getElementById('output').style.display = "block";
   }
-window.addEventListener('load', open_Expense, false)
+window.addEventListener('load', hideChoosefile, false)
