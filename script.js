@@ -1,6 +1,22 @@
-function myAlert() {
-  alert("Your Donation has been Submitted");
-}
+$(document).ready(function(){
+$('#donate').click(function(){
+   if($('#name').val() !== ''){
+      alert("The Donation has been Submitted");
+   }
+})});
+
+$(document).ready(function(){
+$('#upload').click(function(){
+   if($('#dishname').val() !== ''){
+      alert("Your Recipe has been Uploaded");
+   }
+})});
+
+$(document).ready(function(){
+$('#submitrequest').click(function(){
+      alert("Your Pickup Request has been submitted");
+   })});
+
 var loadFile = function(event) {
   var output = document.getElementById('output');
   output.src = URL.createObjectURL(event.target.files[0]);
