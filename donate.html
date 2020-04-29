@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
+  <div class="container">
   <body>
     <h1>Excess Food</h1>
     <h2>Donate</h2>
@@ -21,7 +22,9 @@
         <tr><td><label for="date">Expiration date:</label></td><td> <input type="date" id="date" name="date"><td></tr>
         <tr><td><label for="description">Description:</label></td><td><textarea id="description"></textarea><td></tr>
         <tr><td><label for="dropoff">Drop Off time: </label></td><td> <input type="time" id="dropoff" name="dropoff"><td></tr>
-        <tr><td><label for="back"></label><input type="button" id="back" value="Back" onclick="window.location.href='index.html'"></td><td><input type="submit" id="donate" value="Donate"></td></tr>
+
+        <tr><td><label for="back"></label><input type="button" class="back" value="Back" onclick="window.location.href='index.html'"></td><td><input type="submit" class="donate" value="Donate"></td></tr>
+
       </form>
     </table>
 
@@ -32,4 +35,5 @@
       <a href="pickup.html">Pickup</a>
     </div>
   </body>
+</div>
 </html>

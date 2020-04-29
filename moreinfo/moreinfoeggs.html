@@ -9,6 +9,7 @@
     </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
+  <div class="container">
   <body>
     <h1>Excess Food</h1>
     <h2>Eggs</h2>
@@ -18,13 +19,11 @@
     <tr><td>Description:</td><td>3 dozen eggs from a farm raised hen</td></tr>
     <tr><td>Expiration Date:</td><td> 08/05/2020</td></tr>
     <tr><td>Pickup Time:</td><td>1:00 PM</td></tr>
-    <tr><td>Location:</td><td><div id="location"><input type="button" id="locationpicker" value="Pick a Location"></div></td>
-    </table>
-    </div>
-    <div class="moreinfo_buttons">
-    <button onclick="window.location.href='../pickup.html'" type="button">Back</button>
-    <input onclick="window.location.href='../index.html'" type="button" id="submitrequest" value="Submit Request">
-    </div>
+    <tr><td>Location:</td><td><div id="location"><input type="button" id="locationpicker" class="locate" value="Pick a Location"></div></td>
+    <tr><td><label for="back"></label><input type="button" class="back" value="Back" onclick="window.location.href='../pickup.html'"></td><td><input type="button" class="submitrequest" id="submitrequest" value="Submit request"></td></tr>
+    
+  </table>
+  
     <div id="map-canvas"></div>
 
     <div class="navbar">
@@ -35,4 +34,5 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDxvEHjEAdQMGyoL87GNI4j2WMcontfK0"></script>
     <script type="text/javascript" src="../map/map.js">   </script>
   </body>
+</div>
 </html>
