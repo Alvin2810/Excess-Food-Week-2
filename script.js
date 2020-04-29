@@ -1,12 +1,12 @@
 $(document).ready(function(){
-$('#donate').click(function(){
+$('.donate').click(function(){
    if($('#name').val() !== ''){
       alert("The Donation has been Submitted");
    }
 })});
 
 $(document).ready(function(){
-$('#upload').click(function(){
+$('.upload-recipe').click(function(){
    if($('#dishname').val() !== ''){
       alert("Your Recipe has been Uploaded");
    }
