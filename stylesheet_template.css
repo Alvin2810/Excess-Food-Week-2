@@ -5,7 +5,6 @@ body {
   max-width: 74rem;
   text-align: left;
   margin: auto;
-  overflow: scroll;
 }
 
 textarea {
