@@ -12,7 +12,10 @@ $('#upload').click(function(){
    }
 })});
 
-
+$(document).ready(function(){
+  $('#output').click(function(){
+  $('#choosefile').trigger('click'); });
+});
 
 var loadFile = function(event) {
   var output = document.getElementById('output');
